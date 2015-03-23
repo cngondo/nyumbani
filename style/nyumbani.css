@@ -1,0 +1,65 @@
+
+#container{
+	width: 1200px;
+	height:auto;
+	vertical-align: center;
+}
+body{
+	vertical-align: center;
+	background-color: #FFFFFF;
+}
+header {
+	height: 90px;
+	background-color: #1B3DE6;
+}
+
+#top h1{
+	font-family: 'Dynalight', cursive;
+	float: left;
+	color: #5D06BA;
+	font-size: 30px;
+}
+
+#top li{
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	float: right;
+	display: inline;
+	padding: 10px;
+}
+a {
+	color: solid white;
+}
+#post{
+	height: 150px;
+	width: 100%;
+	padding: 30px 0 30px 0;
+}
+#postone {
+	height:150px;
+	width: 45%;
+	float: left;
+	padding: 0 10px 0 0;
+}
+#posttwo{
+	height: 150px;
+	width: 50%;
+	float: right;
+}
+#postthree{
+	padding: 0 0px 0 10px;
+}
+#postfour{
+	padding: 0 10px 0 0px;
+}
+#foot {
+	text-align: center;
+	font-size: 12px;
+}
+#foot li{
+	display: inline;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
